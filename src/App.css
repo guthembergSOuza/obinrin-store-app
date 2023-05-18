@@ -1,13 +1,12 @@
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .ImgLogo {
   border-radius: 50%;
   width: 13%;
-  margin-top: 40px;
+  margin-top: 1%;
+}
+
+.base-board {
+  font-size: 10px;
+  margin-top: 21%;
 }
 
 .App-header {
@@ -33,14 +32,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.container-fluid {
-  width: 100%;
-  display: block;
-}
 .container:after {
   content: "";
   display: table;
@@ -65,11 +56,6 @@
   color: #282c34
 }
 
-.options-menu {
-  align-items: center;
-  justify-content: center;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -82,11 +68,10 @@
   height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-icon-button {
+  width: 10%;
+  float: left;
+  padding: 15px;
+  margin: -31px -70px 0px 143px;
+
 }

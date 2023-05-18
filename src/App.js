@@ -1,4 +1,5 @@
 import logo from './img/artelie.jpg';
+import instagramIcon from './img/instagram.png';
 import './App.css';
 
 function openInstagram(){
@@ -14,7 +15,7 @@ function App() {
   return (
     <div >
       <header className="App-header">
-        <img src={logo} className="logo"/>
+        <img src={logo} className="ImgLogo"/>
       </header>
       <div className="App-body">
         <div className="container">
@@ -30,8 +31,12 @@ function App() {
             </div>
           </div>
         </div>
-
+        <div className='base-board'>
+          desenvolvido por<br/>
+          @gasi.developer
+        </div>
       </div>
+      
     </div>
   );
 
