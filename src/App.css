@@ -1,7 +1,7 @@
 .ImgLogo {
   border-radius: 50%;
-  width: 25%;
-  margin-top: 1%;
+  width: 45%;
+  margin-top: 5%;
 }
 
 .base-board {
@@ -75,3 +75,11 @@
   margin: -31px -70px 0px 143px;
 
 }
+/*
+@media only screen and (max-device-width: 480px) {
+  .ImgLogo {
+    border-radius: 50%;
+    width: 45%;
+    margin-top: 5%;
+  }
+}*/
