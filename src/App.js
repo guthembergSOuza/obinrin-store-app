@@ -7,7 +7,7 @@ function openInstagram(){
 }
 
 function openWhatsapp(){
-  return window.open("https://web.whatsapp.com/send/?phone=5581995480060&text", '_blank');
+  return window.open("https://wa.me/81995480060", '_blank');
 }
 
 
